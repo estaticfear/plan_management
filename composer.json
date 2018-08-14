@@ -1,0 +1,31 @@
+{
+    "name": "ixosoftware/laravel-plan-management",
+    "description": "Laravel plan management package",
+    "require": {
+        "yajra/laravel-datatables-oracle": "~8.0",
+        "laravelcollective/html":"^5.4.0"
+    },
+    "require-dev": {
+        "php": "~7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IXO Software",
+            "email": "tuan.nguyen@ixosoftware.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IXOSoftware\\PlanManagement\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IXOSoftware\\PlanManagement\\PlanManagementServiceProviderr"
+            ]
+        }
+    }
+}
