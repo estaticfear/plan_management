@@ -7,7 +7,7 @@ composer require ixosoftware/laravel-plan-management "^1.0.2"
 
 Publish the configs, routes, migrations, views and translations
 ```
-php artisan vendor:publish --provider="IXOSoftware\UserPermission\PlanManagementServiceProvider"
+php artisan vendor:publish --provider="IXOSoftware\PlanManagement\PlanManagementServiceProvider"
 ```
 
 Setup `.env` file to use a database
