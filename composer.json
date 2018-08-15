@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "IXOSoftware\\PlanManagement\\": "src/"
+            "IXOSoftware\\PlanManagement\\": "src"
         }
     },
     "minimum-stability": "dev",
