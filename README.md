@@ -2,7 +2,7 @@
 
 Install package using composer:
 ```php
-composer require ixosoftware/laravel-plan-management
+composer require ixosoftware/laravel-plan-management "^1.0.2"
 ```
 
 Publish the configs, routes, migrations, views and translations
