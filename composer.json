@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "IXOSoftware\\PlanManagement\\PlanManagementServiceProviderr"
+                "IXOSoftware\\PlanManagement\\PlanManagementServiceProvider"
             ]
         }
     }
