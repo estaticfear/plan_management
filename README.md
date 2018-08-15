@@ -8,10 +8,10 @@ composer require ixosoftware/laravel-plan-management
 Publish the configs, routes, migrations, views and translations
 ```
 php artisan vendor:publish --provider="IXOSoftware\UserPermission\PlanManagementServiceProvider"
-
-<br />
+```
 
 Setup `.env` file to use a database
+
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -24,3 +24,4 @@ DB_PASSWORD=
 ```
 php artisan migrate
 php artisan db:seed
+```
